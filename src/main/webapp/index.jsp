@@ -1,35 +1,34 @@
 <%@page import="java.util.ArrayList"%>
+<%@page import="java.util.Arrays"%>
+<%@page import="ci.Database"%>
+
 <html>
     <%
-        // ArrayList<Actor> list = new ArrayList<Actor>();
-        // list = (ArrayList<Actor>) request.getAttribute("actors");
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        list.add(1);
-        list.add(5);
-        list.add(9);
+        Database db = new Database();
+        ArrayList<String[]> list = db.getHistory();
     %>
     <head>
         <title>Java Code Geeks Snippets - Sample JSP Page</title>
     </head>
     <body>
-        Current date is: <%=new java.util.Date()%>
-
         <table>
             <thead>
                 <tr>
-                    <th>Column 1</th>
-                    <th>Column 2</th>
-                    <th>Column 3</th>
+                    <th>commitHash</th>
+                    <th>date</th>
                 </tr>
             </thead>
             <tbody>
                 <% 
-                    for(int i : list) {
+                    for(String[] sa : list) {
                 %>
                     <tr>
-                        <td><%=i%></td>
-                        <td><%=i + 1%></td>
-                        <td><%=i + 2%></td>
+                        <td>
+                            <a href='<%=sa[0]%>'>
+                                <%=sa[0]%>
+                            </a>
+                        </td>
+                        <td><%=sa[1]%></td>
                     </tr>
                 <%
                 };
