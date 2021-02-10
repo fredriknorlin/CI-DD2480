@@ -1,3 +1,6 @@
+Det här är den sjukaste commiten någonsin
+
+
 # DD2480
 
 To run the server:
