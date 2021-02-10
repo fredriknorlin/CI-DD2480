@@ -1,6 +1,6 @@
 Nej, det här är den sjukaste commiten någonsin
 På riktigt den här gången:)
-kanske nu
+på riktigt nu
 
 # DD2480
 
