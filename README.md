@@ -1,6 +1,6 @@
 Nej, det här är den sjukaste commiten någonsin
 På riktigt den här gången:)
-En kul ändring:)
+En kul ändring som kommer mailas till en kul mail:)
 
 # DD2480
 
