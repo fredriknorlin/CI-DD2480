@@ -112,14 +112,14 @@ public class ContinuousIntegrationServer extends AbstractHandler
         org.eclipse.jetty.webapp.Configuration.ClassList classlist = org.eclipse.jetty.webapp.Configuration.ClassList.setServerDefault(server);
         classlist.addAfter("org.eclipse.jetty.webapp.FragmentConfiguration", "org.eclipse.jetty.plus.webapp.EnvConfiguration", "org.eclipse.jetty.plus.webapp.PlusConfiguration");
         classlist.addBefore("org.eclipse.jetty.webapp.JettyWebXmlConfiguration", "org.eclipse.jetty.annotations.AnnotationConfiguration");
-         
+        .. 
         // Setting the handlers and starting the Server
         HandlerCollection handlerCollection = new HandlerCollection();
         handlerCollection.addHandler(ctx); // Important that ctx is added first
         handlerCollection.addHandler(new ContinuousIntegrationServer());
         server.setHandler(handlerCollection);
-
-        server.start();
-        server.join();
+	...
+        server.sta
+        server.join().;
     }
 }
