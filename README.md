@@ -1,7 +1,5 @@
 Nej, det här är den sjukaste commiten någonsin
 På riktigt den här gången:)
-på riktigt nu
-snälla...
 
 # DD2480
 
