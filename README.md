@@ -4,6 +4,8 @@ En kul ändring som kommer mailas till en kul mail:)
 
 Nu vill vi se json
 
+Och nu vill vi se mail
+
 # DD2480
 
 To run the server:
