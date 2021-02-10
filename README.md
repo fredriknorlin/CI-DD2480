@@ -2,6 +2,8 @@ Nej, det här är den sjukaste commiten någonsin
 På riktigt den här gången:)
 En kul ändring som kommer mailas till en kul mail:)
 
+Nu vill vi se json
+
 # DD2480
 
 To run the server:
